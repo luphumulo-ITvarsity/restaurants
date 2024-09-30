@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dining Restaurant</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meale.html">Meals</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="2about.html">About</a></li>
+        </ul>
+        <i class="fa fa-bars menu-icon" aria-label="Menu"></i>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Whether you have a question, feedback, or would like to make a reservation, please get in touch using the contact form below or reach out to us through the contact details provided.</p>
+            
+            <div class="contact-details">
+                <h2>Our Contact Information</h2>
+                <p><i class="fa fa-map-marker-alt"></i> 42 Mgengo Street, North End, Port Elizabeth</p>
+                <p><i class="fa fa-phone"></i> +27 123 456 789</p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:info@diningrestaurant.com">info@diningrestaurant.com</a></p>
+                <p><i class="fa fa-globe"></i> <a href="https://www.diningrestaurant.com" target="_blank">www.diningrestaurant.com</a></p>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dining Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>

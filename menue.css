@@ -1,0 +1,96 @@
+body{
+	background-image: url(back%20ground/food.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 1625px;
+	
+ 
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+h2{ 
+
+	      display: flex;
+            justify-content: center;
+            align-items: center;     
+            height: 100vh;        
+           }
+	
+.logo-container{
+	display: flex;
+	align-items: center;
+}
+button{
+	background-color: #ff5733;
+	border-top-left-radius: 50px;n 
+}
+img {
+	width: 30%;
+	height:auto;
+	object-fit: contain;
+}
+
+
+
+p{
+	text-align: center;
+	font-family: monospace;
+	text-decoration: none;
+	font-size: 300%;
+	border:300%;
+	text-decoration-color: darkblue;
+}
+
+
+
+
+.home-menu-item td {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
